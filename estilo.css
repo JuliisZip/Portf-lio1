@@ -1,0 +1,618 @@
+@import  url ( 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap' );
+* {
+    margem :  0 ;
+    preenchimento :  0 ;
+    tamanho da caixa : caixa de borda;
+    decoração de texto : nenhum;
+}
+html {
+    comportamento de rolagem : suave;
+}
+. largura máxima {
+    largura máxima :  1300 px ;
+    preenchimento :  0  80 px ;
+    margem : automática;
+}
+/* início da barra de navegação*/
+. barra de navegação {
+    posição : fixo;
+    largura :  100 % ;
+    preenchimento :  30 px  0 ;
+    font-family :  'Ubuntu' , sem serifa;
+    índice z :  999 ;
+    transição : todos os 0,3 s de facilidade;
+}
+. barra de navegação . pegajoso {
+     plano de fundo :  # 00804b ;
+     preenchimento :  15 px  0 ;
+}
+. barra de navegação . largura máxima {
+    exibição : flexível;
+    itens de alinhamento : centro;
+    justificar-conteúdo : espaço-entre;
+}
+. barra de navegação . logotipo  a {
+    cor :  #fff ; _
+    tamanho da fonte :  35 px ;
+    peso da fonte :  500 ;
+}
+. barra de navegação . logo  uma  extensão {
+    cor :  # 00804b ;
+    transição : todos os 0,3 s de facilidade;
+}
+. barra de navegação . pegajoso . logo  uma  extensão {
+    cor :  #fff ; _
+}
+. barra de navegação . cardápio  li {
+    estilo de lista : nenhum;
+    exibição : bloco em linha;
+}
+. barra de navegação . cardápio  li  a {
+    cor :  #fff ; _
+    tamanho da fonte :  18 px ;
+    peso da fonte :  500 ;
+    margem esquerda :  25 px ;
+    transição : cor facilidade de 0,3 s ;
+}
+. barra de navegação . menu  li  a : passe o mouse {
+    cor :  # 00804b ;
+}
+. barra de navegação . pegajoso . menu  li  a : passe o mouse {
+    cor :  #fff ; _
+}
+/* Home inicio */
+. casa {
+    exibição : flexível;
+    plano de fundo :  url (image/banner.png) sem repetição;
+    tamanho do plano de fundo : capa;
+    altura :  100 vh ;
+    cor :  #fff ; _
+    altura mínima :  500 px ;
+    font-family :  'Ubuntu' , sem serifa;
+}
+. casa . largura máxima {
+    margem : auto 0 auto 40 px ;
+}
+. casa . home-conteúdo . texto-1 {
+    tamanho da fonte :  27 px ;
+}
+. casa . home-conteúdo . texto-2 {
+    tamanho da fonte :  75 px ;
+    peso da fonte :  500 ;
+    margem esquerda :  -3 px ;
+}
+. casa . home-conteúdo . texto-3 {
+    tamanho da fonte :  40 px ;
+    margem :  5 px  0 ;
+}
+. casa . home-conteúdo . texto-3  extensão {
+    cor : # 00804b ;
+    peso da fonte :  500 ;
+}
+. casa . conteúdo doméstico  a {
+    exibição : bloco em linha;
+    plano de fundo :  # 00804b ;
+    cor :  #fff ; _
+    tamanho da fonte :  25 px ;
+    preenchimento :  12 px  36 px ;
+    margem superior :  20 px ;
+    raio da borda :  6 px ;
+    borda :  2 px sólido # 00804b ;
+}
+. casa . conteúdo inicial  a : passe o mouse {
+    cor :  # 00804b ;
+    plano de fundo : nenhum;
+}
+
+/* Menu Móvel */
+. menu-btn {
+    cor :  #fff ; _
+    tamanho da fonte :  26 px ;
+    cursor : ponteiro;
+    exibição : nenhum;
+}
+. scroll-up-btn {
+    posição : fixo;
+    largura :  41 px ;
+    altura :  45px ; _
+    direita :  30 px ;
+    inferior :  30 px ;
+    alinhamento de texto : centro;
+    altura da linha :  50 px ;
+    cor :  #fff ; _
+    plano de fundo :  # 00804b ;
+    raio da borda :  6 px ;
+    tamanho da fonte :  30 px ;
+    índice z :  9999 ;
+    cursor : ponteiro;
+    opacidade :  0 ;
+    eventos de ponteiro : nenhum;
+    transição : todos os 0,3 s de facilidade;
+}
+. scroll-up-btn . mostrar {
+    inferior :  30 px ;
+    opacidade :  1 ;
+    eventos de ponteiro : auto;
+    
+}
+
+/* todos os códigos semelhantes */
+seção {
+    preenchimento :  100 px  0 ;
+}
+seção . título {
+    font-family :  'Ubuntu' , sem serifa;
+    alinhamento de texto : centro;
+    tamanho da fonte :  40 px ;
+    peso da fonte :  500 ;
+    margem inferior :  60 px ;
+    padding-bottom :  20 px ;
+    posição : relativa;
+}
+seção . titulo :: antes {
+    conteúdo :  "" ;
+    posição : absoluto;
+    inferior :  0 ;
+    esquerda :  50 % ;
+    largura :  180 px ;
+    altura :  3px ; _
+    plano de fundo :  # 111 ;
+    transformar :  traduzirX ( -50 % );
+}
+seção . título :: após {
+    posição : absoluto;
+    inferior : -12 px ;
+    esquerda :  50 % ;
+    tamanho da fonte :  20 px ;
+    plano de fundo :  #fff ;
+    cor :  # 00804b ;
+    preenchimento :  5 px ;
+    transformar :  traduzirX ( -50 % );
+}
+. sobre , . serviços , . habilidades , . equipes , . contato ,  rodapé {
+    font-family :  'Roboto' , sem serifa;
+}
+. sobre . sobre-conteúdo ,
+. serviços . conteúdo de serviço ,
+. habilidades . conteúdo de habilidades ,
+. contato . contato-conteúdo {
+    exibição : flexível;
+    flex-wrap : envoltório;
+    itens de alinhamento : centro;
+    justificar-conteúdo : espaço-entre;
+}
+
+/* sessão sobre */
+
+. sobre . título :: após {
+    conteúdo :  "Quem sou eu" ;
+}
+. sobre . sobre-conteúdo . esquerda {
+    largura :  45 % ;
+}
+. sobre . sobre-conteúdo . certo {
+    largura :  55 % ;
+}
+. sobre . sobre-conteúdo . certo . texto {
+    tamanho da fonte :  25 px ;
+    peso da fonte :  500 ;
+    margem inferior :  10 px ;
+}
+. sobre . sobre-conteúdo . certo . espaço de texto  {
+    cor :  # 00804b ;
+}
+. sobre . sobre-conteúdo . direito  p {
+    text-align : justificar;
+}
+. sobre . sobre-conteúdo . certo  um {
+    exibição : bloco em linha;
+    plano de fundo :  # 00804b ;
+    cor :  #fff ; _
+    tamanho da fonte :  20 px ;
+    peso da fonte :  500 ;
+    preenchimento :  10 px  30 px ;
+    margem superior :  20 px ;
+    raio da borda :  6 px ;
+    borda :  2 px sólido # 00804b ;
+    transição : todos os 0,3 s de facilidade;
+}
+. sobre . sobre-conteúdo . a direita  : passe o mouse {
+    cor :  # 00804b ;
+    plano de fundo : nenhum;
+}
+. sobre . sobre-conteúdo . imagem esquerda  {
+    largura :  400 px ;
+    altura :  400 px ;
+    ajuste de objeto : capa;
+    raio da borda :  6 px ;
+}
+/* sessão serviços */
+. serviços , . equipes {
+    plano de fundo :  # 111 ;
+    cor :  #fff ; _
+}
+. serviços . título :: antes ,
+. times . titulo :: antes {
+    plano de fundo :  #fff ;
+}
+. serviços . título :: depois ,
+. times . título :: após {
+    plano de fundo :  # 111 ;
+    conteúdo :  "Que oferecemos" ;
+}
+. serviços . ser-conteúdo . carta {
+    largura :  calc ( 33 %  -  20 px );
+    plano de fundo :  # 222 ;
+    alinhamento de texto : centro;
+    raio da borda :  6 px ;
+    preenchimento :  20 px  25 px ;
+    cursor : ponteiro;
+    transição : todos os 0,3 s de facilidade;
+}
+. serviços . ser-conteúdo . cartão : passe o mouse {
+    plano de fundo :  # 00804b ;
+}
+. serviços . ser-conteúdo . cartão . caixa {
+    transição : todos os 0,3 s de facilidade;
+}
+. serviços . ser-conteúdo . cartão : passe o mouse . caixa {
+    transformar :  escala ( 1,05 );
+}
+. serviços . ser-conteúdo . cartão  íon-ícone {
+    tamanho da fonte :  70 px ;
+    cor :  # 00804b ;
+}
+. serviços . ser-conteúdo . cartão : hover  ion-icon {
+    cor :  #fff ; _
+}
+. serviços . ser-conteúdo . cartão . texto {
+    tamanho da fonte :  25 px ;
+    peso da fonte :  500 ;
+    margem :  10 px  0  7 px  0 ;
+}
+/* sessões de especialidades */
+. habilidades . título :: após {
+    conteúdo :  "Que faço" ;
+}
+. habilidades . habilidades-conteúdo . coluna {
+    largura :  calc ( 50 %  -  30 px );
+}
+. habilidades . habilidades-conteúdo . esquerda . texto {
+    tamanho da fonte :  25 px ;
+    peso da fonte :  500 ;
+    margem inferior :  10 px ;
+}
+. habilidades . habilidades-conteúdo . p esquerdo  {
+    text-align : justificar;
+}
+. habilidades . habilidades-conteúdo . deixou  um {
+    exibição : bloco em linha;
+    plano de fundo :  # 00804b ;
+    cor :  #fff ; _
+    tamanho da fonte :  18 px ;
+    peso da fonte :  500 ;
+    preenchimento :  8 px  16 px ;
+    margem superior :  20 px ;
+    raio da borda :  6 px ;
+    borda :  2 px sólido # 00804b ;
+    transição : todos os 0,3 s de facilidade;
+}
+. habilidades . habilidades-conteúdo . deixou  um : passe o mouse {
+    cor :  # 00804b ;
+    plano de fundo : nenhum;
+}
+. habilidades . habilidades-conteúdo . certo . barras {
+    margem inferior :  15 px ;
+}
+. habilidades . habilidades-conteúdo . certo . informações {
+    exibição : flexível;
+    itens de alinhamento : centro;
+    justificar-conteúdo : espaço-entre;
+}
+. habilidades . habilidades-conteúdo . extensão direita  {
+    peso da fonte :  500 ;
+    tamanho da fonte :  18 px ;
+}
+. habilidades . habilidades-conteúdo . certo . linha {
+    largura :  100 % ;
+    altura :  5px ; _
+    plano de fundo :  #ccc ;
+    posição : relativa;
+}
+. habilidades . habilidades-conteúdo . certo . linha :: antes {
+    conteúdo :  "" ;
+    posição : absoluto;
+    altura :  100 % ;
+    superior :  0 ;
+    esquerda :  0 ;
+    plano de fundo :  # 00804b ;
+}
+. habilidades . habilidades-conteúdo . certo . html :: antes {
+    largura :  93 % ;
+}
+. habilidades . habilidades-conteúdo . certo . css :: antes {
+    largura :  85 % ;
+}
+. habilidades . habilidades-conteúdo . certo . js :: antes {
+    largura :  87 % ;
+}
+. habilidades . habilidades-conteúdo . certo . php :: antes {
+    largura :  47 % ;
+}
+. habilidades . habilidades-conteúdo . certo . mysql :: antes {
+    largura :  42 % ;
+}
+/* equipamento de sessão */
+. times . título :: após {
+    conteúdo :  "Especializada" ;
+}
+. times . carrossel . carta {
+    plano de fundo :  # 222 ;
+    raio da borda :  6 px ;
+    preenchimento :  25 px  35 px ;
+    alinhamento de texto : centro;
+    transição : todos os 0,3 s de facilidade;
+}
+. times . carrossel . cartão : passe o mouse {
+    plano de fundo :  # 00804b ;
+}
+. times . carrossel . imagem do cartão  {
+    largura :  150 px ;
+    altura :  150 px ;
+    ajuste de objeto : capa;
+    raio da borda :  50 % ;
+    borda :  5 px sólido # 00804b ;
+    transição : todos os 0,3 s de facilidade;
+}
+. times . carrossel . cartão : passe o mouse  img {
+    cor da borda :  # fff ;
+}
+. times . carrossel . cartão . caixa {
+    exibição : flexível;
+    flex-direction : coluna;
+    itens de alinhamento : centro;
+    justificar-conteúdo : centro;
+    transição : todos os 0,3 s de facilidade;
+}
+. times . carrossel . cartão : passe o mouse . caixa {
+    transformar :  escala ( 1,05 );
+}
+. times . carrossel . cartão . texto {
+    tamanho da fonte :  25 px ;
+    peso da fonte :  500 ;
+    margem :  10 px  0  7 px  0 ;
+}
+. pontos de coruja {
+    alinhamento de texto : centro;
+    margem superior :  20 px ;
+}
+. ponto-coruja {
+    largura :  14px ; _
+    altura :  14px ; _
+    contorno : nenhum ! importante ;
+    raio da borda :  50 % ;
+    borda :  2 px sólido # 00804b !importante ;
+    transição : todos os 0,3 s de facilidade;
+}
+. ponto-coruja . ativo {
+    largura :  35 px ;
+    raio da borda :  15 px ;
+}
+. ponto-coruja . ativo ,
+. ponto-coruja : passe o mouse {
+    plano de fundo :  # 00804b !importante ;
+}
+/* sessão Contato */
+. contato . título :: após {
+    conteúdo :  "Fale conosco" ;
+}
+. contato . contato-conteúdo . coluna {
+    largura :  calc ( 50 %  -  30 px );
+}
+. contato . contato-conteúdo {
+    itens de alinhamento : flex-start;
+}
+. contato . contato-conteúdo . p esquerdo  {
+    text-align : justificar;
+}
+. contato . contato-conteúdo . texto {
+    tamanho da fonte :  20 px ;
+    peso da fonte :  500 ;
+    margem inferior :  10 px ;
+}
+. contato . contato-conteúdo . esquerda . ícones {
+    margem :  10 px  0 ;
+}
+. contato . contato-conteúdo . linha {
+    exibição : flexível;
+    altura :  65px ; _
+    itens de alinhamento : centro;
+}
+. contato . contato-conteúdo . linha . informações {
+    margem esquerda :  30 px
+}
+. contato . contato-conteúdo . linha . info . cabeça {
+    peso da fonte :  500 ;
+}
+. contato . contato-conteúdo . linha . info . subtítulo {
+    cor :  # 333 ;
+}
+. contato . contato-conteúdo . linha  íon-ícone {
+    tamanho da fonte :  25 px ;
+    cor :  # 00804b ;
+}
+. contato . forma correta  . campos {
+    exibição : flexível;
+}
+. contato . forma correta  . campo ,
+. contato . forma correta  . campos . campo {
+    largura :  100 % ;
+    altura :  45px ; _
+    margem inferior :  15 px ;
+}
+. contato . forma correta  . entrada de campo , 
+. contato . forma correta  . área de texto área de texto { 
+    largura :  100 % ;
+    altura :  100 % ;
+    borda :  1 px sólido # ccc ;
+    raio da borda :  6 px ;
+    contorno : nenhum;
+    preenchimento :  0  15 px ;
+    tamanho da fonte :  17 px ;
+    font-family :  'Roboto' , sem serifa;
+}
+. contato . forma correta  . nome {
+    margem direita :  10 px ;
+}
+. contato . forma correta  . e-mail {
+    margem esquerda :  10 px ;
+}
+. contato . forma correta  . área de texto {
+    largura :  100 % ;
+    altura :  80 px ;
+}
+. contato . forma correta  . área de texto área de texto { 
+    padding-top :  10 px ;
+    redimensionar : nenhum;
+}
+. contato . forma correta  . botão {
+    largura :  170 pixels ;
+    altura :  47 px ;
+}
+. contato . forma correta  . botão botão { 
+    largura :  100 % ;
+    altura :  100 % ;
+    borda :  2 px sólido # 00804b ;
+    plano de fundo :  # 00804b ;
+    cor :  #fff ; _
+    tamanho da fonte :  20 px ;
+    peso da fonte :  500 ;
+    raio da borda :  6 px ;
+    cursor : ponteiro;
+    transição : todos os 0,3 s de facilidade;
+}
+. contato . forma correta  . botão botão : passe o mouse { 
+    cor :  # 00804b ;
+    plano de fundo : nenhum;
+}
+
+/* rodapé da sessão */
+rodapé {
+    plano de fundo :  # 111 ;
+    preenchimento :  20 px  23 px ;
+    cor :  #fff ; _
+    alinhamento de texto : centro;
+}
+ extensão  do rodapé a {
+    cor :  # 00804b ;
+    decoração de texto : nenhum;
+}
+ extensão do  rodapé a : passe o mouse {
+    decoração de texto : sublinhado;
+}
+
+
+/* responsivo */
+@media ( largura máxima :  1300 px ){
+    . barra de navegação . largura máxima {
+        margem esquerda :  0 ;
+    }
+}
+@media ( largura máxima :  1104 px ){
+    . sobre . sobre-conteúdo . imagem esquerda  {
+        largura :  350 px ;
+        altura :  350 px ;
+    }
+}
+@media ( largura máxima :  991 px ){
+    . barra de navegação . largura máxima {
+        preenchimento :  0  50 px ;
+    }
+}
+@media ( largura máxima :  947 px ){
+    . largura máxima {
+        largura máxima :  800 px ;
+        preenchimento :  0  50 px ;
+    }
+    . menu-btn {
+        exibição : bloco;
+        índice z :  999 ;
+    }
+    . barra de navegação . cardápio {
+        posição : fixo;
+        largura :  100 % ;
+        altura :  100 vh ;
+        esquerda :  -100 % ;
+        superior :  0 ;
+        plano de fundo :  # 111 ;
+        padding-top :  80 px ;
+        alinhamento de texto : centro;
+        transição : todos os 0,3 s de facilidade;
+    }
+    . barra de navegação . menu . ativo {
+        esquerda :  0 ;
+    }
+    . barra de navegação . cardápio  li {
+        exibição : bloco;
+    }
+    . barra de navegação . cardápio  li  a {
+        exibição : bloco em linha;
+        margem :  20 px  0 ;
+        tamanho da fonte :  25 px ;
+    }
+    . casa . home-conteúdo . texto-2 {
+        tamanho da fonte :  70 px ;
+    }
+    . casa . home-conteúdo . texto-3 {
+        tamanho da fonte :  35 px ;
+    }
+    . casa . conteúdo doméstico  a {
+        tamanho da fonte :  23 px ;
+        preenchimento :  10 px  30 px ;
+    }
+    . sobre . sobre-conteúdo . coluna {
+        largura :  50 % ;
+    }
+    . sobre . sobre-conteúdo . esquerda {
+        exibição : flexível;
+        justificar-conteúdo : centro;
+        margem :  0 auto 60 px ;
+    }
+    . sobre . sobre-conteúdo . certo {
+        flexível :  100 % ;
+    }
+    . serviços . ser-conteúdo . carta {
+        largura :  calc ( 50 %  -  10 px );
+        margem inferior :  20 px ;
+    }
+    . habilidades . habilidades-conteúdo . coluna ,
+    . contato . contato-conteúdo . coluna {
+        largura :  100 % ;
+        margem inferior :  35 px ;
+    }
+    rodapé {
+        margem superior :  15 px ;
+    }
+}
+@media ( largura máxima :  690 px ){
+    . casa . home-conteúdo . texto-2 {
+        tamanho da fonte :  60 px ;
+    }
+    . casa . home-conteúdo . texto-3 {
+        tamanho da fonte :  32 px ;
+    }
+    . casa . conteúdo doméstico  a {
+        tamanho da fonte :  20 px ;
+    }
+    . serviços . ser-conteúdo . carta {
+        largura : 100 % ;
+    }
+}
+@media ( largura máxima :  500 px ){
+    . casa . home-conteúdo . texto-2 {
+        tamanho da fonte :  50 px ;
+    }
+    . casa . home-conteúdo . texto-3 {
+        tamanho da fonte :  27 px ;
+    }
+}
